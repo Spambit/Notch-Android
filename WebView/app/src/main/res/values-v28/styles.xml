@@ -1,0 +1,14 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+<!--        <item name="android:colorPrimary">@color/colorPrimary</item>-->
+<!--        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>-->
+<!--        <item name="android:colorAccent">@color/colorAccent</item>-->
+        <!-- Status bar stuff. -->
+        <item name="android:statusBarColor">@color/colorStatusBar</item>
+<!--        <item name="android:navigationBarColor">@color/colorStatusBar</item>-->
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+</resources>

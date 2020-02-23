@@ -1,0 +1,67 @@
+<html>
+<meta name="viewport" content="initial-scale=1, 
+maximum-scale=1, 
+user-scalable=no, 
+width=device-width,
+viewport-fit=cover">
+<style type="text/css">
+    html,
+    body {
+        width: calc(100% - 10px);
+        height: calc(100% - 10px);
+        margin: 0px;
+        padding: 0px;
+        background-color: steelblue;
+        position: relative;
+
+        border-color: royalblue;
+        border-width: 5px;
+        border-style: solid;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        overflow: hidden;
+        background-color: #333;
+        position: absolute;
+        top: var(--hsi-safe-area-top);
+        left: var(--hsi-safe-area-left);
+        right: var(--hsi-safe-area-right);
+    }
+
+    li {
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover:not(.active) {
+        background-color: #111;
+    }
+
+    .active {
+        background-color: #4CAF50;
+    }
+</style>
+<script>
+
+</script>
+
+<body>
+    <ul>
+        <li><a class="active" href="#home">Home1</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+    </ul>
+
+</body>
+
+</html>
